@@ -4,7 +4,7 @@
 - [x] task 2 - setup view folder
 - [x] task 3 - setup router folder
 - [x] task 4 - create a file called productRouter.js inside the router folder
-- [ ] task 5 - require the productRouter.js file inside app.js and give it a path = "/api/product"
+- [x] task 5 - require the productRouter.js file inside app.js and give it a path = "/api/product"
 - [ ] Code the CRUD functionality inside productRouter.js file
 - [ ] CRUD - CREATE, Retrieve, UPDATE, and DELETE
 - [ ] 1.setup a GET route to retrieve all the products

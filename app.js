@@ -20,7 +20,7 @@ const path = require("path");
 
 const app = express();
 
-const productRouter = require("./routes/productRouter");
+const productRouter = require("./router/productRouter");
 
 app.use(logger("dev"));
 app.use(express.json());
@@ -32,12 +32,7 @@ app.set("views", path.join(__dirname, "views"));
 
 app.set("view engine", "ejs");
 
-app.get("/api/product", function (req, res) {
-	res.render("index", {
-		user: "Josh",
-		info: ["likes hockey", "plays DnD", "lives in NC"],
-	});
-});
+app.use("/api/product", productRouter)
 
 app.listen(3000, function () {
 	console.log("Server started in port 3000");
