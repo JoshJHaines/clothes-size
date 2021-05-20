@@ -13,8 +13,8 @@ let productsArray = [
     name: "shirts",
   },
 ];
-- [ ] Instruction - spin up a brand new express app using the steps we went over in class
-- [ ] NOTE - npm unit -y, npm i express morgan uuid, create app.js
+- [x] Instruction - spin up a brand new express app using the steps we went over in class
+- [x] NOTE - npm unit -y, npm i express morgan uuid, create app.js
 - [ ] task 1 - setup public folder
 - [ ] task 2 - setup view folder
 - [ ] task 3 - setup router folder
@@ -27,3 +27,4 @@ let productsArray = [
 - [ ] 3.  setup a GET route to retreieve item by name
 - [ ] 4. set a POST route to create a product and give it an ID
 - [ ] 5. set a PUT route to update a product by ID
+- [ ] 6. set a DELETE route to delete a product by ID
