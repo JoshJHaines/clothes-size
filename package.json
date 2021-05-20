@@ -1,0 +1,26 @@
+{
+  "name": "clothes-size",
+  "version": "1.0.0",
+  "description": "let productsArray = [   {     id: \"1\",     name: \"pants\",   },   {     id: \"2\",     name: \"shorts\",   },   ,   {     id: \"3\",     name: \"shirts\",   }, ]; - [ ] Instruction - spin up a brand new express app using the steps we went over in class - [ ] NOTE - npm unit -y, npm i express morgan uuid, create app.js - [ ] task 1 - setup public folder - [ ] task 2 - setup view folder - [ ] task 3 - setup router folder - [ ] task 4 - create a file called productRouter.js inside the router folder - [ ] task 5 - require the productRouter.js file inside app.js and give it a path = \"/api/product\" - [ ] Code the CRUD functionality inside productRouter.js file - [ ] CRUD - CREATE, Retrieve, UPDATE, and DELETE - [ ] 1.setup a GET route to retrieve all the products - [ ] 2. setup a GET route to retreieve item by id - [ ] 3.  setup a GET route to retreieve item by name - [ ] 4. set a POST route to create a product and give it an ID - [ ] 5. set a PUT route to update a product by ID",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshJHaines/clothes-size.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoshJHaines/clothes-size/issues"
+  },
+  "homepage": "https://github.com/JoshJHaines/clothes-size#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "uuid": "^8.3.2"
+  }
+}
