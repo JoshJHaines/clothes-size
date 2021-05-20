@@ -4,6 +4,9 @@ const path = require("path");
 
 const app = express();
 
+
+const productRouter = require("./routes/productRouter")
+
 app.use(logger("dev"));
 app.use(express.json());
 
